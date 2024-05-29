@@ -6,9 +6,9 @@ Brute force attack designed specifically for the site furaffinity.
 It uses selenium to create a bot that will visit furaffinity under a random useragent and a random proxy and attempts to login using a generated password, it bypasses recaptchas sent by the site using a [chrome extension](https://chromewebstore.google.com/detail/captcha-solver-auto-hcapt/hlifkpholllijblknnmbfagnkjneagid?hl=en) and on success will display the password that successfully was recognized by the site.
 
 ## Installation
-You need to first have latest python and pip version installed.
+You need to first have latest python and pip version installed. Install [chrome extension](https://chromewebstore.google.com/detail/captcha-solver-auto-hcapt/hlifkpholllijblknnmbfagnkjneagid?hl=en) and compress it into a zip file (name it captcha.zip) and move it into  the directory with brute.py inside.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries specified in requirements.txt.
+Afterwards install libraries specified in requirements.txt and the bruteforcer is ready to be used.
 
 ```bash
 pip install -r requirements.txt
