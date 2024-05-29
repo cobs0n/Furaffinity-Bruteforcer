@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ## Usage
 <img src="https://github.com/cobs0n/Furaffinity-Bruteforcer/blob/main/scrnshot.png"> </img>
 
-You execute brute.py by opening command prompt and typing
+Execute the following cli command
 ```
 python brute.py
 ```
